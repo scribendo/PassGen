@@ -1,3 +1,5 @@
+![PassGen logo](https://i.imgur.com/Dc3itmD.jpg)
+
 # PassGen v. 1.0.0
 Random password generator to create strong passwords
 PassGen it 'a useful library for random password generation.

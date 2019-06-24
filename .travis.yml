@@ -1,5 +1,5 @@
 language: swift # just an alias for objective-c, that's all Travis offers atm
 xcode_project: PassGen.xcodeproj # path to your xcodeproj folder
 xcode_scheme: PassGen
-xcode_destination: platform=macOS
+xcode_destination: platform:iOS Simulator, OS:12.2, name:iPhone Xs
 osx_image: xcode10.2

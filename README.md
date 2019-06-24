@@ -57,6 +57,9 @@ do {
     }
 }
 ```
+## Run the test - ⌘ U
+
+In Xcode Press "Command-U" to run all the tests
 
 
 

@@ -1,16 +1,15 @@
 ![PassGen logo](https://i.imgur.com/Dc3itmD.jpg)
 
-# PassGen v. 1.0.0
-Random password generator to create strong passwords
-PassGen it 'a useful library for random password generation.
-You can create various types of passwords:
-* **DigitPassword** allows you to generate numeric passwords;
-* **LatinPassword** allows you to create passwords containing lower and upper case characters;
-* **HexadecimalPassword** creates hexadecimal passwords;
-* **Strong password** generates passwords containing numbers, uppercase and lowercase letters, and symbols.
+# PassGen v. 1.0.0 [![Build Status](https://travis-ci.org/scribendo/PassGen.svg?branch=master)](https://travis-ci.org/scribendo/PassGen)
+
+PassGen is a Swift-based library that allows you to create passwords of several types and complexities:
+* **DigitPassword** => create numeric passwords
+* **LatinPassword** => create passwords containing lower and upper case characters
+* **HexadecimalPassword** => create hexadecimal passwords
+* **Strong password** => create passwords containing numbers, uppercase letters, lowercase letters and symbols
 
 ##  Usage
-You can generate password of length beetween 4 to 64. 
+You can generate passwords with a length ranging from 4 to 64 characters. 
 ```swift
 do {
     let password = PassGen(passwordType: DigitPassword())
@@ -57,9 +56,24 @@ do {
     }
 }
 ```
-## Run the test - ⌘ U
+## Tests
 
-In Xcode Press "Command-U" to run all the tests
+In Xcode Press "Command-U" (⌘+U) to run all the tests. Have a look at the Travis builds here: https://travis-ci.org/scribendo/PassGen
 
+## Built With
 
+* [Swift](https://swift.org/)
+* [Xcode](https://developer.apple.com/xcode/)
+
+## Contributing
+
+Feel free to contribute to this project. Any improvement or suggestion is well welcomed.
+
+## License
+
+This project is licensed under the GNU GPLv3 - see the [LICENSE](LICENSE) file for details.
+
+## Acknowledgments
+
+* Lead maintainer: [Alessandro Pindinelli](https://github.com/pindinelli)
 
